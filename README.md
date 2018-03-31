@@ -1,4 +1,4 @@
-# Ferienwohnung Erweiterung - Dev
+# Ferienwohnung Erweiterung fuer Contao - Dev
 
 ## Installation
 

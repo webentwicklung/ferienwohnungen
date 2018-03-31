@@ -35,6 +35,6 @@
 		 "contao-manager-plugin": "Wtk\\Fewo\\ContaoManagerPlugin"
 	},
 	"replace":{
-		"contao-legacy/fewoextension":"self.version"
+		"contao-legacy/fewo-extension":"self.version"
 	}
 }

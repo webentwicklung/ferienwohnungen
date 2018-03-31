@@ -1,6 +1,6 @@
 <?php
 
-namespace Mopic\StandardExtension;
+namespace Wtk\Fewo;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -15,9 +15,9 @@ class ContaoManagerPlugin implements BundlePluginInterface
 	public function getBundles(ParserInterface $parser)
 	{
 		return [
-			BundleConfig::create(StandardExtensionBundle::class)
+			BundleConfig::create(FewoBundle::class)
 				->setLoadAfter([ContaoCoreBundle::class])
-				->setReplace(['standard-extension']),
+				->setReplace(['fewo-extension']),
 		];
 	}
 }

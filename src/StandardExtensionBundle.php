@@ -6,13 +6,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Mopic\StandardExtension;
+namespace Wtk\Fewo;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Configures the Standard Extension bundle.
  */
-class StandardExtensionBundle extends Bundle
+class FewoBundle extends Bundle
 {
 }
